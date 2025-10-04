@@ -34,6 +34,23 @@ export default function Home() {
           Go to Dashboard
         </Link>
 
+        {/* 🚀 Virtual Reality Button */}
+        <Link
+          href="/virtual-reality"
+          className="rounded-lg bg-blue-600 text-white px-6 py-3 shadow-md hover:bg-blue-700 transition font-medium text-sm sm:text-base"
+        >
+          Go to Virtual Reality
+        </Link>
+
+        {/* 🚀 Endangered Plants Button */}
+        <Link
+          href="/endangered-plants"
+          className="rounded-lg bg-blue-600 text-white px-6 py-3 shadow-md hover:bg-blue-700 transition font-medium text-sm sm:text-base"
+        >
+          Go to Endangered Plants
+        </Link>
+        
+
         <div className="flex gap-4 items-center flex-col sm:flex-row">
           <a
             className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
