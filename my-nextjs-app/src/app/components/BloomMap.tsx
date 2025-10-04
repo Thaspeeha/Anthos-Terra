@@ -6,6 +6,9 @@ import L from "leaflet";
 import Image from "next/image";
 import "leaflet/dist/leaflet.css";
 import { FeatureCollection } from "geojson";
+import { useRouter } from "next/navigation";
+import { ArrowLeft } from "lucide-react"; // optional icon for style
+
 
 // ---- Leaflet marker fix for Next.js ----
 interface FixedIcon extends L.Icon.Default {
@@ -103,6 +106,8 @@ function MapZoom({ center, zoom }: { center: [number, number]; zoom: number }) {
 
 // ---- BloomMap Component ----
 export default function BloomMap() {
+  const router = useRouter();
+
   const [selectedCountry, setSelectedCountry] = useState<string | null>(null);
   const [selectedBloom, setSelectedBloom] = useState<BloomInfo | null>(null);
   const [panelOpen, setPanelOpen] = useState(true);
@@ -128,6 +133,26 @@ export default function BloomMap() {
           height: "100vh",
         }}
       >
+        {/* Back Button */}
+        <button
+           onClick={() => router.push("/dashboard")} // 👈 navigate to dashboard
+           style={{
+             display: "flex",
+             alignItems: "center",
+             gap: "8px",
+             background: "#1b3a57",
+             color: "#fff",
+             border: "none",
+             borderRadius: "6px",
+             padding: "0.5rem 0.75rem",
+             cursor: "pointer",
+             marginBottom: "1rem",
+             fontWeight: "500",
+             width: "100%",
+           }}
+          >
+        <ArrowLeft size={18} /> Back to Dashboard
+       </button>
         <h2 style={{ color: "#1b3a57", fontWeight: "bold", marginBottom: "0.5rem" }}>
           Bloom Explorer
         </h2>

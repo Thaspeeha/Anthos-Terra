@@ -8,7 +8,7 @@ const InfoCards = () => {
   const router = useRouter();
 
   const handleExploreClick = () => {
-    router.push('/bloom-map');
+    router.push('/explore');
   };
 
   return (
