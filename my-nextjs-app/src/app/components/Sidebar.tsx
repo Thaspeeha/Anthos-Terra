@@ -5,7 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 const tools = [
-  { name: "Bloom Prediction", icon: "🏵️", desc: "Get insights on when your plants will flower", path: "/bloom-predictions" },
+  { name: "Bloom Prediction", icon: "🏵️", desc: "Upload on when your plants will flower", path: "/bloom-predictions" },
   { name: "AI plant detector", icon: "🤖", desc: "Identify plants instantly with smart recognition", path: "/ai-plant-detector" },
   { name: "Virtual garden", icon: "🌎", desc: "Experience botanical wonders in immersive reality", path: "/virtual-reality" },
   { name: "Endangered plants", icon: "🛡️", desc: "Discover and learn about plants that need our protection", path: "/endangered-plants" },
