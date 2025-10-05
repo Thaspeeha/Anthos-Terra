@@ -3,11 +3,10 @@ import Image from "next/image";
 import { useState } from "react";
 import dynamic from "next/dynamic";
 import Sidebar from "../components/Sidebar";
-import Navbar from "../components/Navbar"; // ✅ Import Navbar component
+import Navbar from "../components/Navbar";
 
-// --- Dynamic import for Three.js VR component ---
 const CaliforniaBloomParticlesVR = dynamic(
-  () => import("../components/CaliforniaBloomParticlesVR"), // adjust path if needed
+  () => import("../components/CaliforniaBloomParticlesVR"),
   { ssr: false }
 );
 
@@ -17,7 +16,6 @@ export default function VRPage() {
 
   return (
     <div className="min-h-screen bg-[#FAF2E5] flex flex-col">
-      {/* ✅ Shared Navbar at top */}
       <Navbar />
 
       <div className="flex flex-1 pt-[180px] px-4 gap-6">
@@ -39,77 +37,78 @@ export default function VRPage() {
               </button>
             </div>
           ) : (
-            <main className="lex-1 flex flex-col items-left ml-4">
-              <p className="text-sm text-gray-500 mb-6">
+            <main className="flex-1 flex flex-col items-left ml-4">
+              <p className="text-sm text-[#6c8a72] mb-6">
                 Home &gt; Garden Tools &gt;{" "}
                 <span className="font-semibold">Virtual Garden</span>
               </p>
 
-              <h1 className="text-2xl font-semibold text-gray-800 mb-8">
+              <h1 className="text-3xl font-semibold text-[#2f4f2f] mb-8">
                 Choose Your Environment
               </h1>
 
               {/* Environment Cards */}
               <div className="flex gap-10 mb-12">
                 <div
-                  className={`cursor-pointer border rounded-xl shadow hover:shadow-lg p-4 max-w-[200px] ${
-                    selectedEnv === "rainforest" ? "ring-2 ring-green-600" : ""
+                  className={`cursor-pointer border rounded-xl shadow hover:shadow-lg p-4 max-w-[200px] bg-white ${
+                    selectedEnv === "rainforest" ? "ring-2 ring-[#73917E]" : ""
                   }`}
                   onClick={() => setSelectedEnv("rainforest")}
                 >
                   <Image
-                    src="/rainforest.jpg"
+                    src="/images/blooms.jpg"
                     alt="Rainforest"
                     width={200}
                     height={160}
                     className="rounded-lg mb-4"
                   />
-                  <h3 className="font-semibold">Plant Blooms</h3>
-                  <p className="text-sm text-green-700">
-                    Immerse yourself in a lush, tropical rainforest filled with
-                    exotic plants.
+                  <h3 className="font-semibold text-[#2f4f2f] mb-2">Plant Blooms</h3>
+                  <p className="text-sm text-[#4a4a4a]">
+                    Experience the beauty of flowering plants in their natural bloom cycles.
                   </p>
                 </div>
 
                 <div
-                  className={`cursor-pointer border rounded-xl shadow hover:shadow-lg p-4 max-w-[200px] ${
-                    selectedEnv === "desert" ? "ring-2 ring-green-600" : ""
+                  className={`cursor-pointer border rounded-xl shadow hover:shadow-lg p-4 max-w-[200px] bg-white ${
+                    selectedEnv === "desert" ? "ring-2 ring-[#73917E]" : ""
                   }`}
                   onClick={() => setSelectedEnv("desert")}
                 >
                   <Image
-                    src="/desert.jpg"
+                    src="/unknown.png"
                     alt="Desert"
                     width={200}
-                    height={160}
+                    height={150}
                     className="rounded-lg mb-4"
                   />
-                  <h3 className="font-semibold">Algal Blooms</h3>
-                  <p className="text-sm text-green-700">
+                  <h3 className="font-semibold text-[#2f4f2f] mb-2">Algal Blooms</h3>
+                  <p className="text-sm text-[#4a4a4a]">
                     Future Development. Not available yet.
                   </p>
                 </div>
               </div>
 
               {/* Getting Started */}
-              <h2 className="text-xl font-semibold mb-4">Getting Started</h2>
-              <p className="text-gray-600 mb-6 max-w-2xl">
+              <h2 className="text-2xl font-semibold text-[#2f4f2f] mb-4">
+                Getting Started
+              </h2>
+              <p className="text-[#4a4a4a] mb-6 max-w-2xl">
                 To enjoy the VR experience, click on one of the VR above. Then
                 select enter the virtual garden.
               </p>
 
               <ul className="space-y-4 mb-10">
                 <li className="flex items-center gap-4">
-                  <div className="w-10 h-10 bg-green-100 flex items-center justify-center rounded-lg text-green-700 font-bold">
+                  <div className="w-10 h-10 bg-[#cde3d0] flex items-center justify-center rounded-lg text-[#2f4f2f] font-bold">
                     1
                   </div>
-                  <span>Click VR scene</span>
+                  <span className="text-[#2f4f2f]">Click VR scene</span>
                 </li>
                 <li className="flex items-center gap-4">
-                  <div className="w-10 h-10 bg-green-100 flex items-center justify-center rounded-lg text-green-700 font-bold">
+                  <div className="w-10 h-10 bg-[#cde3d0] flex items-center justify-center rounded-lg text-[#2f4f2f] font-bold">
                     2
                   </div>
-                  <span>Enter Virtual Garden</span>
+                  <span className="text-[#2f4f2f]">Enter Virtual Garden</span>
                 </li>
               </ul>
 
@@ -121,7 +120,7 @@ export default function VRPage() {
                 }}
                 className={`px-6 py-3 rounded-lg font-medium ${
                   selectedEnv
-                    ? "bg-green-600 text-white hover:bg-green-700"
+                    ? "bg-[#73917E] text-white hover:bg-[#6c8a72]"
                     : "bg-gray-300 text-gray-500 cursor-not-allowed"
                 }`}
               >

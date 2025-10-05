@@ -75,8 +75,8 @@ export default function CaliforniaBloomParticlesVR() {
           width: 320,
         }}
       >
-        <div style={{ fontWeight: 700, marginBottom: 8 }}>Plant Blooms VR</div>
-        <div style={{ fontSize: 12 }}>
+        <div style={{ fontWeight: 700, marginBottom: 8, color: "#2f4f2f" }}>Plant Blooms VR</div>
+        <div style={{ fontSize: 12, color: "#2f4f2f" }}>
           Pink floating particles represent bloom areas on land. The subtle floating motion simulates bloom movement.
         </div>
       </div>
