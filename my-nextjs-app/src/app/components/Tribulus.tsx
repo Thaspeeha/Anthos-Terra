@@ -4,10 +4,9 @@ import React, { useEffect, useState } from "react";
 import { BarChart, Bar, ResponsiveContainer, XAxis, YAxis, CartesianGrid, Tooltip } from "recharts";
 import { ResponsiveLine } from "@nivo/line";
 import Papa from 'papaparse';
+
 const bloomIntensity = 45;
 const pollenAlert = bloomIntensity > 40 ? 'High' : 'Low';
-
-
 
 const ndviData = [
   {
@@ -66,6 +65,7 @@ export default function Tribulus({ data }: TribulusProps) {
   const [predictedBloom, setPredictedBloom] = useState<number | null>(null);
   const [predictionError, setPredictionError] = useState<string | null>(null);
   const [monthlyAvgData, setMonthlyAvgData] = useState<{month: number, intensity: number}[]>([]);
+  const [videoOpen, setVideoOpen] = useState(false);
 
   const targetYear = 2026;
   const targetMonth = 1; // January
@@ -229,8 +229,6 @@ export default function Tribulus({ data }: TribulusProps) {
         </div>
       </div>
 
-      
-
       <div className="bg-white shadow rounded-lg p-6 text-center w-full mt-6">
         <h2 className="text-lg font-semibold text-[#4A6544] mb-2">
           Next Bloom In {targetYear}-{targetMonth.toString().padStart(2, '0')}
@@ -246,7 +244,7 @@ export default function Tribulus({ data }: TribulusProps) {
               Predicted Bloom Intensity 
             </p>
             <p className=" text-green-600 font-bold mt-4">
-              {data?.bloomPrediction ?? "  High bloom intensity expected in March-April based on current rainfall and temperature patterns."}
+              {data?.bloomPrediction ?? "  High bloom intensity expected in March-April based on current rainfall and temperature patterns."}
             </p>
           </div>
         ) : (
@@ -254,19 +252,19 @@ export default function Tribulus({ data }: TribulusProps) {
         )}
       </div>
 
-       {/* Health Alert */}
-    <div className="bg-white shadow rounded-lg p-4 w-full mt-6">
-      <h2 className="font-semibold text-[#4A6544] mb-2">Health Alert</h2>
-      <p className="text-gray-700">Pollen Alert Level: <strong className="text-red-500">{pollenAlert}</strong></p>
-      <ul className="list-disc pl-5 mt-2 text-gray-700">
-        <li>Limit outdoor activities if sensitive to pollen</li>
-        <li>Use air filters or masks during high pollen periods</li>
-        <li>Consult healthcare providers for allergy management</li>
-      </ul>
-      <p className="text-black font-bold mt-3">
-        Note : This alert is based on predicted bloom intensity and may vary.
-      </p>
-    </div>
+      {/* Health Alert */}
+      <div className="bg-white shadow rounded-lg p-4 w-full mt-6">
+        <h2 className="font-semibold text-[#4A6544] mb-2">Health Alert</h2>
+        <p className="text-gray-700">Pollen Alert Level: <strong className="text-red-500">{pollenAlert}</strong></p>
+        <ul className="list-disc pl-5 mt-2 text-gray-700">
+          <li>Limit outdoor activities if sensitive to pollen</li>
+          <li>Use air filters or masks during high pollen periods</li>
+          <li>Consult healthcare providers for allergy management</li>
+        </ul>
+        <p className="text-black font-bold mt-3">
+          Note : This alert is based on predicted bloom intensity and may vary.
+        </p>
+      </div>
 
       <div className="bg-white shadow rounded-lg p-6 w-full mt-6">
         <h2 className="text-lg font-semibold text-[#4A6544] mb-4">
@@ -301,18 +299,47 @@ export default function Tribulus({ data }: TribulusProps) {
         </div>
       </div>
 
+      {/* Video Section */}
       <div className="bg-white shadow rounded-lg p-6 text-center w-full mt-6">
         <h2 className="text-lg font-semibold text-[#4A6544] mb-2">
           Learn More Through Video
         </h2>
         <p className="text-sm text-gray-600 mb-4">
-          Watch our educational video about Tribulus omanense and its
-          conservation
+          Watch our educational video about Tribulus omanense and its conservation
         </p>
-        <button className="mt-3 px-6 py-3 bg-green-100 text-green-700 rounded-md text-base hover:bg-green-200 transition-colors">
+        <button
+          onClick={() => setVideoOpen(true)}
+          className="mt-3 px-6 py-3 bg-green-100 text-green-700 rounded-md text-base hover:bg-green-200 transition-colors"
+        >
           Watch Video
         </button>
       </div>
+
+      {videoOpen && (
+        <div
+          className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50"
+          onClick={() => setVideoOpen(false)}
+        >
+          <div
+            className="relative w-full max-w-4xl bg-black rounded-md"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <video
+              src="/videos/Tribulus Omanense.mp4"
+              controls
+              className="w-full h-auto rounded-md"
+              controlsList="nofullscreen nodownload"
+            />
+            <button
+              onClick={() => setVideoOpen(false)}
+              className="absolute top-2 right-2 text-white bg-gray-800 bg-opacity-75 rounded-full p-1 hover:bg-opacity-100 transition"
+              aria-label="Close video popup"
+            >
+              ✕
+            </button>
+          </div>
+        </div>
+      )}
     </>
   );
 }
