@@ -1,6 +1,6 @@
 "use client";
-import BloomMap from "../components/BloomMap";
+import BloomMaps from "../components/BloomMaps";
 
 export default function ExplorePage() {
-  return <BloomMap />;
+  return <BloomMaps />;
 }
