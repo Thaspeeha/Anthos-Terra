@@ -39,15 +39,14 @@ No Backend (fully frontend)
 
 ### 🚀 **Hosting & Development**
 - ⚡ **Deployment:** Live Sever for frontend hosting
-
-  
-
 - 🔗 **Version Control:** GitHub for repo & collaboration
 
 ### 🗄️ **Storage**
 - ☁️ Cloud storage/local disk for raw and processed data
 
 Watch Video- Demonstration of the protoptype
+
+
 [![Watch Anthos Terra Demo](https://img.youtube.com/vi/ylHSUAkc6_Y/0.jpg)](https://www.youtube.com/watch?v=ylHSUAkc6_Y)
 
 
