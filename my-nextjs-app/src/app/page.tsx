@@ -1,112 +1,74 @@
+"use client";
 import Image from "next/image";
-import Link from "next/link";
+//import Link from "next/link";
+import { motion } from "framer-motion";
+import { useRouter } from "next/navigation";
+
 
 export default function Home() {
+  const router = useRouter();
+
   return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
+    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-[#faf6ef] via-[#f8f5e9] to-[#f5f2e4] relative overflow-hidden">
+      
+      {/* Floating background circles */}
+      <div className="absolute w-[400px] h-[400px] bg-[#e2dcc5] rounded-full blur-3xl opacity-40 top-[-100px] left-[-150px] animate-pulse"></div>
+      <div className="absolute w-[300px] h-[300px] bg-[#d9e0c7] rounded-full blur-3xl opacity-40 bottom-[-100px] right-[-100px] animate-pulse"></div>
+
+      {/* Welcome text */}
+      <motion.h1
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1 }}
+        className="text-4xl md:text-5xl font-serif text-[#4A6544] mb-6"
+      >
+        Welcome to
+      </motion.h1>
+
+      {/* Logo animation */}
+      <motion.div
+        initial={{ scale: 0.7, opacity: 0 }}
+        animate={{ scale: 1, opacity: 1 }}
+        transition={{ duration: 1, delay: 0.3 }}
+        className="flex justify-center mb-6"
+      >
         <Image
-          className="dark:invert"
-          src="/logo.jpg"
-          alt="Next.js logo"
+          src="/logo.jpg" 
+          alt="Anthos Terra Logo"
           width={180}
-          height={38}
-          priority
+          height={180}
+          className="drop-shadow-lg animate-float"
         />
-        <ol className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
+      </motion.div>
 
-        {/* 🚀 Dashboard Button */}
-        <Link
-          href="/dashboard"
-          className="rounded-lg bg-blue-600 text-white px-6 py-3 shadow-md hover:bg-blue-700 transition font-medium text-sm sm:text-base"
-        >
-          Go to Dashboard
-        </Link>
+      {/* Subtitle */}
+      <motion.h2
+        initial={{ opacity: 0, y: 10 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1, delay: 0.5 }}
+        className="text-2xl md:text-3xl font-serif text-[#4A6544] mb-2 tracking-wide"
+      >
+        ANTHOS TERRA
+      </motion.h2>
 
-        {/* 🚀 Virtual Reality Button */}
-        <Link
-          href="/virtual-reality"
-          className="rounded-lg bg-blue-600 text-white px-6 py-3 shadow-md hover:bg-blue-700 transition font-medium text-sm sm:text-base"
-        >
-          Go to Virtual Reality
-        </Link>
+      <motion.p
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 1, delay: 0.8 }}
+        className="italic text-gray-600 mb-10 text-center"
+      >
+        Where every bloom story is heard
+      </motion.p>
 
-        {/* 🚀 Endangered Plants Button */}
-        <Link
-          href="/endangered-plants"
-          className="rounded-lg bg-blue-600 text-white px-6 py-3 shadow-md hover:bg-blue-700 transition font-medium text-sm sm:text-base"
-        >
-          Go to Endangered Plants
-        </Link>
-        
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image aria-hidden src="/file.svg" alt="File icon" width={16} height={16} />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image aria-hidden src="/window.svg" alt="Window icon" width={16} height={16} />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image aria-hidden src="/globe.svg" alt="Globe icon" width={16} height={16} />
-          Go to nextjs.org →
-        </a>
-      </footer>
+      {/* Button */}
+      <motion.button
+        whileHover={{ scale: 1.1 }}
+        whileTap={{ scale: 0.95 }}
+        onClick={() => router.push("/dashboard")}
+        className="px-8 py-3 rounded-full bg-[#4A6544] text-white text-lg shadow-lg hover:bg-[#5b7a55] transition-all duration-300"
+      >
+        Go to Dashboard
+      </motion.button>
     </div>
   );
 }
