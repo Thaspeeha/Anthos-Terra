@@ -35,7 +35,7 @@ No Backend (fully frontend)
 - **UAESTATS**, **VIIRS**
 
 ### 🚀 **Hosting & Development**
-- ⚡ **Deployment:** Live Sever for frontend hosting
+- ⚡ **Deployment:** Live Server for frontend hosting (To be hosted)
 - 🔗 **Version Control:** GitHub for repo & collaboration
 
 ### 🗄️ **Storage**
