@@ -43,7 +43,7 @@ No Backend (fully frontend)
 - ☁️ Cloud storage/local disk for raw and processed data
 
 ### 🚀 Our Project
-  [![NASA](https://img.shields.io/badge/NASA-Website-blue?logo=nasa&logoColor=white)](https://www.spaceappschallenge.org/2025/find-a-team/anthos-terra/)
+[![NASA](https://img.shields.io/badge/NASA-Website-blue?logo=nasa&logoColor=white)](https://www.spaceappschallenge.org/2025/find-a-team/anthos-terra/)
 
 ## 🖥️ Presentation
 [![PPT](https://img.shields.io/badge/Presentation-PPTX-blue)](https://www.canva.com/design/DAG07zn-qoo/ThNlYB7NfVIliNvNs2iNxg/edit?utm_content=DAG07zn-qoo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)  
