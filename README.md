@@ -1,4 +1,4 @@
-# 🏆 2025 NASA Space Apps Global Nominee & Honorable Mention 🏆
+# 🏆 2025 NASA Space Apps Global Nominee-Honorable Mention 🏆
 ## 🌱 **Anthos-Terra**: Web-based Plant Bloom Visualization & Prediction Platform
 
 
