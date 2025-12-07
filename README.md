@@ -2,11 +2,11 @@
 <br>
 
 ## 🌱 **Anthos-Terra**: Web-based Plant Bloom Visualization & Prediction Platform
-
+<br>
 
 ## 📝 **Description**
 Anthos-Terra is a web-based platform for **monitoring, analyzing, and forecasting plant blooming events** using NASA Earth observation data and other open datasets. Focused on sensors such as MODIS (MOD13A1), Landsat, UAESTATS, and VIIRS, the system ingests NDVI and related vegetation indices for interactive mapping and trend analysis of bloom activity.
-
+<br>
 
 ## ✨ **Features**
 
@@ -17,7 +17,7 @@ Anthos-Terra is a web-based platform for **monitoring, analyzing, and forecastin
 - 🟩 **Geospatial mapping** of bloom activity and phenology using *Leaflet.js*
 - 🔮 **Bloom & pollen production panel** powered by ML prediction (*FastAPI*, *scikit-learn*, *XGBoost*)
 - 🌐 **API endpoints** for data, forecast, and map overlays
-
+<br>
 
 ## 🏗️ **Architecture**
 
@@ -43,6 +43,7 @@ No Backend (fully frontend)
 
 ### 🗄️ **Storage**
 - ☁️ Cloud storage/local disk for raw and processed data
+<br>
 
 ## 🚀 Our Project
 [![NASA](https://img.shields.io/badge/NASA-Website-blue?logo=nasa&logoColor=white)](https://www.spaceappschallenge.org/2025/find-a-team/anthos-terra/)
