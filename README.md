@@ -54,5 +54,8 @@ No Backend (fully frontend)
 
 ## 🎥 Watch the Project Video
 [Watch the video](https://www.canva.com/design/DAG09koVuBk/pSuW2xI3wdQgzrhwN41DBA/edit)
+<br>
 
+[![🏆 NASA Global Nominee](https://img.shields.io/badge/NASA%20Space%20Apps-Global%20Nominee-blue?logo=nasa)](#)
+[![🌟 Honorable Mention](https://img.shields.io/badge/Honorable%20Mention-2025-green)](#)
 
