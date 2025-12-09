@@ -30,7 +30,7 @@ Anthos-Terra is a web-based platform for **monitoring, analyzing, and forecastin
 - **Files:** `/src/app`, `/pages/map.js`, `/components/BloomPanel.js`
 
 ### 🤖 **Backend**
-No Backend (fully frontend)
+ Fully integrated in Next.js framework.
 
 ### 🌍 **Data Sources**
 - **NASA Earth Observatory Global Maps (MODIS NDVI)**
