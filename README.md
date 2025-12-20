@@ -1,6 +1,13 @@
 # 🏆 2025 NASA Space Apps Global Nominee & Honorable Mention
 <br>
 
+## 🌍 The Challenge
+
+**Witness the pulse of life across our planet.**  
+From season to season and year to year, Earth’s vegetation is constantly changing. These changes provide critical insights into plant species, agricultural cycles, seasonal effects, pollen sources, and plant phenology—the relationship between climate patterns and biological processes in plants.
+
+The challenge is to harness the power of **NASA Earth observations** to create a **dynamic visual tool** that can display and/or detect **plant blooming events** across the globe—much like pollinators naturally do.
+
 ## 🌱 **Anthos-Terra**: Web-based Plant Bloom Visualization & Prediction Platform
 
 ## 📝 **Description**
@@ -55,7 +62,3 @@ Anthos-Terra is a web-based platform for **monitoring, analyzing, and forecastin
 
 [![🏆 NASA Global Nominee](https://img.shields.io/badge/NASA%20Space%20Apps-Global%20Nominee-blue?logo=nasa)](#)
 [![🌟 Honorable Mention](https://img.shields.io/badge/Honorable%20Mention-2025-green)](#)
-
-
-[![Watch Demo](https://img.shields.io/badge/▶-Watch%20Video-red?style=for-the-badge&logo=youtube)](https://www.canva.com/design/DAG09koVuBk/pSuW2xI3wdQgzrhwN41DBA/edit)
-
