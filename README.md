@@ -25,7 +25,7 @@ A **rule-based prediction system** determines bloom likelihood using defined thr
 For this prototype, the model focuses on **_Tribulus omanense_**, a native desert plant species in Abu Dhabi. This localized approach enables targeted bloom prediction, trend visualization, and region-specific ecological insights.
 
 <p align="center">
-  <img src="public/bloom-predict.png" width="220"/>
+  <img src="my-nextjs-app/public/bloom-predict.png" width="220"/>
   <br/>
   <em>Bloom Prediction</em>
 </p>
