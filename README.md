@@ -42,7 +42,11 @@ The output includes:
 
 This module connects plant identification with environmental context, helping users understand which conditions favor specific species. While currently lightweight, the detector is designed to scale with larger plant datasets or satellite-based vegetation classification models in future iterations.
 
----
+<p align="center">
+  <img src="my-nextjs-app/public/AI-detect.png" width="420"/>
+  <br/>
+  <em>Bloom Prediction</em>
+</p>
 
 ### 🕶️ Immersive Virtual Reality Visualization
 
