@@ -11,6 +11,10 @@ From season to season and year to year, Earth’s vegetation is constantly chang
 The challenge is to harness the power of **NASA Earth observations** to create a **dynamic visual tool** that can display and/or detect **plant blooming events** across the globe—much like pollinators naturally do.
 <br>
 
+## 📝 **Description**
+Anthos-Terra is a web-based platform for **monitoring, analyzing, and forecasting plant blooming events** using NASA Earth observation data and other open datasets. Focused on sensors such as MODIS (MOD13A1), Landsat, UAESTATS, and VIIRS, the system ingests NDVI and related vegetation indices for interactive mapping and trend analysis of bloom activity.
+<br>
+
 ## 🔍 How Does It Work?
 
 Anthos Terra functions as a comprehensive platform that merges **environmental monitoring**, **plant detection**, and **immersive visualization** to explore the rhythms of Earth’s vegetation. The system integrates three core modules that work together to deliver a complete and engaging experience.
@@ -62,9 +66,6 @@ The VR module is currently under development and will be enhanced with:
 This creative fusion of **data visualization, environmental science, and digital art** enables users to experience ecological change in a more personal, sensory, and intuitive way.
 
 ---
-
-## 📝 **Description**
-Anthos-Terra is a web-based platform for **monitoring, analyzing, and forecasting plant blooming events** using NASA Earth observation data and other open datasets. Focused on sensors such as MODIS (MOD13A1), Landsat, UAESTATS, and VIIRS, the system ingests NDVI and related vegetation indices for interactive mapping and trend analysis of bloom activity.
 
 
 ## ✨ **Features**
