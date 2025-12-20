@@ -95,7 +95,7 @@ This creative fusion of **data visualization, environmental science, and digital
          
   **Prediction logic (client-side)**: TypeScript simple linear regression.
 
-#### ⚙️ **Backend / API**
+### ⚙️ **Backend / API**
 Next.js API routes (Node.js).
 
 **Data format**: CSV data
