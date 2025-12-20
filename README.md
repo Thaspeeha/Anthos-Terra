@@ -81,14 +81,10 @@ This creative fusion of **data visualization, environmental science, and digital
 ## 🏗️ **Architecture**
 
 ### 🎨 **Frontend**
-- **Framework:** dynamic & responsive
-- **UI/Styling:** minimal, intuitive, accessible
-- **Graphs:** bloom trends
-- **Maps:** region selection & overlays
-- **Files:** `/src/app`, `/pages/map.js`, `/components/BloomPanel.js`
-
-### 🤖 **Backend**
- Fully integrated in Next.js framework.
+- **Next.js** – Dynamic and responsive web application framework  
+- **Plotly.js** – Interactive bloom trend visualizations and time-series graphs  
+- **Leaflet.js** – Geospatial mapping and region-based bloom visualization  
+- **Tailwind CSS** – Minimal, intuitive, and accessible UI design  
 
 ### 🌍 **Data Sources**
 - **NASA Earth Observatory Global Maps (MODIS NDVI)**
