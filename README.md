@@ -75,12 +75,12 @@ This creative fusion of **data visualization, environmental science, and digital
 ## ✨ **Features**
 
 - 💾 **Integration with MODIS (MOD13A1), Landsat, UAESTATS, and VIIRS datasets**
-- 📈 **Automated NDVI extraction**, regional aggregation, and multi-source fusion
-- 🗺️ **Interactive region selection** and vegetation filtering
-- 📊 **Time-series visualization** for bloom cycles/intensity with *Plotly.js*
-- 🟩 **Geospatial mapping** of bloom activity and phenology using *Leaflet.js*
-- 🔮 **Bloom & pollen production panel** powered by ML prediction (*FastAPI*, *scikit-learn*, *XGBoost*)
-- 🌐 **API endpoints** for data, forecast, and map overlays
+- 📈 **Automated NDVI extraction**, regional aggregation, and multi-source fusion.
+- 🗺️ **Interactive region selection** and vegetation filtering,
+- 📊 **Time-series visualization** for bloom cycles/intensity.
+- 🟩 **Geospatial mapping** of bloom activity and phenology.
+- 🔮 **Bloom & pollen production panel** powered by ML prediction.
+- 🌐 **API endpoints** for data, forecast, and map overlays,
 
 ## 🏗️ **Architecture**
 
@@ -88,7 +88,8 @@ This creative fusion of **data visualization, environmental science, and digital
 - **Next.js** – Dynamic and responsive web application framework  
 - **Plotly.js** – Interactive bloom trend visualizations and time-series graphs  
 - **Leaflet.js** – Geospatial mapping and region-based bloom visualization  
-- **Tailwind CSS** – Minimal, intuitive, and accessible UI design  
+- **Tailwind CSS** – Minimal, intuitive, and accessible UI design
+- **Scikit Learn, FastAPI, XG Boost** - integrated in Next.js for ML prediction
 
 ### 🌍 **Data Sources**
 - **NASA Earth Observatory Global Maps (MODIS NDVI)**
