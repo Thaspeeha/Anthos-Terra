@@ -56,3 +56,6 @@ Anthos-Terra is a web-based platform for **monitoring, analyzing, and forecastin
 [![🏆 NASA Global Nominee](https://img.shields.io/badge/NASA%20Space%20Apps-Global%20Nominee-blue?logo=nasa)](#)
 [![🌟 Honorable Mention](https://img.shields.io/badge/Honorable%20Mention-2025-green)](#)
 
+
+[![Watch Demo](https://img.shields.io/badge/▶-Watch%20Video-red?style=for-the-badge&logo=youtube)](https://www.canva.com/design/DAG09koVuBk/pSuW2xI3wdQgzrhwN41DBA/edit)
+
