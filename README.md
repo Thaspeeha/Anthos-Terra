@@ -95,9 +95,7 @@ This creative fusion of **data visualization, environmental science, and digital
 Next.js API routes (Node.js).
 
 **Data format**: CSV data
-
 **Build / Package**: Node.js + npm 
-
 **Dev tooling**: TypeScript, ESLint, PostCSS; Next.js dev tooling / bundler (webpack).
 <br>
 
