@@ -85,11 +85,20 @@ This creative fusion of **data visualization, environmental science, and digital
 ## 🏗️ **Architecture**
 
 ### 🎨 **Frontend**
-- **Next.js** – Dynamic and responsive web application framework  
-- **Plotly.js** – Interactive bloom trend visualizations and time-series graphs  
-- **Leaflet.js** – Geospatial mapping and region-based bloom visualization  
-- **Tailwind CSS** – Minimal, intuitive, and accessible UI design
-- **Scikit Learn, FastAPI, XG Boost** - integrated in Next.js for ML prediction
+**Framework & Language** : Next.js (App Router) + React — TypeScript, client components, server components.
+**UI / Visualization**: Plotly, Recharts and Nivo for charts; plain CSS + PostCSS (Tailwind-style classes used).
+**Geospatial Mapping**: Leaflet.js
+
+**Client CSV parsing**: PapaParse (browser).
+**Prediction logic (client-side)**: TypeScript simple linear regression implemented in BloomPredictor.tsx and Tribulus.tsx — no external ML library.
+
+#### ⚙️ **Backend / API**
+Next.js API routes (Node.js) returning heuristic predictions and CSV-derived series.
+
+**Data format / storage**: CSV data under public/data.
+**Build / Package**: Node.js + npm (package.json / package-lock.json present).
+**Dev tooling**: TypeScript, ESLint, PostCSS; Next.js dev tooling / bundler (webpack).
+<br>
 
 ### 🌍 **Data Sources**
 - **NASA Earth Observatory Global Maps (MODIS NDVI)**
