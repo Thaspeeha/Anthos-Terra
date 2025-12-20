@@ -86,20 +86,15 @@ This creative fusion of **data visualization, environmental science, and digital
 
 ### 🎨 **Frontend**
 **Framework & Language** : Next.js (App Router) + React — TypeScript, client components, server components.
-
 **UI / Visualization**: Plotly, Recharts and Nivo for charts; plain CSS + PostCSS (Tailwind-style classes used).
-
 **Geospatial Mapping**: Leaflet.js
-
 **Client CSV parsing**: PapaParse (browser).
-
 **Prediction logic (client-side)**: TypeScript simple linear regression.
 
 #### ⚙️ **Backend / API**
 Next.js API routes (Node.js) returning heuristic predictions and CSV-derived series.
 
 **Data format**: CSV data
-
 **Build / Package**: Node.js + npm 
 
 **Dev tooling**: TypeScript, ESLint, PostCSS; Next.js dev tooling / bundler (webpack).
