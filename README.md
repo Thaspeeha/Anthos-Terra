@@ -116,19 +116,19 @@ Next.js API routes (Node.js).
 ## ⭐ What benefits does it have?
 Anthos-Terra bridges the gap between raw satellite data and practical, actionable insights:
 
-Environmental and Ecological Benefits: It supports the study of biodiversity, phenology, and the impact of climate change by tracking how plant blooming patterns vary across landscapes and seasons. Researchers can identify regions experiencing abnormal or delayed bloom events, which may signal climate stress or ecological imbalance.
-Agricultural Benefits: Farmers and agricultural planners can use the system to estimate optimal flowering and harvesting times, improving crop yields and reducing the risk of pest outbreaks. The bloom forecasts can also help plan irrigation and fertilizer schedules based on vegetation activity.
-Public Health Benefits: By forecasting pollen intensity and timing, Anthos-Terra assists allergy sufferers and public health departments in preparing for high-pollen seasons.
-Educational and Research Benefits: Students, educators, and citizen scientists gain easy access to NASA’s complex data through simplified visual dashboards, fostering awareness of environmental processes.
+- Environmental and Ecological Benefits: It supports the study of biodiversity, phenology, and the impact of climate change by tracking how plant blooming patterns vary across landscapes and seasons. Researchers can identify regions experiencing abnormal or delayed bloom events, which may signal climate stress or ecological imbalance.
+- Agricultural Benefits: Farmers and agricultural planners can use the system to estimate optimal flowering and harvesting times, improving crop yields and reducing the risk of pest outbreaks. The bloom forecasts can also help plan irrigation and fertilizer schedules based on vegetation activity.
+- Public Health Benefits: By forecasting pollen intensity and timing, Anthos-Terra assists allergy sufferers and public health departments in preparing for high-pollen seasons.
+- Educational and Research Benefits: Students, educators, and citizen scientists gain easy access to NASA’s complex data through simplified visual dashboards, fostering awareness of environmental processes.
 
 
 ## 🎯 What is the intended impact of the project?
 Anthos-Terra leverages NASA Earth data to transform complex satellite observations into meaningful insights, bridging science, agriculture, and conservation for a sustainable future.
 
-Translates complex satellite imagery into accessible visualizations for easy interpretation.
-Promotes data-driven environmental stewardship, empowering communities and policymakers to track and respond to ecosystem changes in real-time.
-Encourages cross-disciplinary collaboration between technologists, environmentalists, and educators, making scientific data interactive and engaging.
-Enables early detection of environmental stress and potential threats to biodiversity.
+- Translates complex satellite imagery into accessible visualizations for easy interpretation.
+- Promotes data-driven environmental stewardship, empowering communities and policymakers to track and respond to ecosystem changes in real-time.
+- Encourages cross-disciplinary collaboration between technologists, environmentalists, and educators, making scientific data interactive and engaging.
+- Enables early detection of environmental stress and potential threats to biodiversity.
 
 
 ## 💡 How is your project creative?
