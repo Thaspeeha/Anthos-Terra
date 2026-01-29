@@ -138,14 +138,14 @@ We designed the website’s interface to mirror natural growth, subtle animation
 
 
 ## 🔍 What factors did your team consider?
-Data Accuracy and Reliability: NASA data can be complex, we focused on creating a user-friendly interface that simplifies technical information for general audiences.
+- Data Accuracy and Reliability: NASA data can be complex, we focused on creating a user-friendly interface that simplifies technical information for general audiences.
 User Accessibility and Experience: Designing an intuitive, responsive interface with clear visuals, smooth transitions, and accessible color palettes for users of varying technical backgrounds.
-Interactivity and Engagement: Enabling users to explore bloom patterns globally through interactive maps, graphs, and region-specific insights.
-Scalability and Performance: Processing data client-side to maintain responsiveness and avoid heavy server infrastructure, ensuring smooth performance even with large datasets.
-Global Coverage and Context: We wanted the system to function globally but also offer local-scale insights. The design supports different vegetation types, from deserts to farmlands.
-Scientific and Practical Relevance: Ensuring the platform supports research, conservation efforts, and practical applications like agriculture and policy-making.
-Accuracy: We used validated satellite datasets and NDVI-based algorithms for credible bloom detection and forecasting.
-Sustainability and Ethics: Anthos-Terra encourages awareness about environmental protection and promotes data use for the public good.
+- Interactivity and Engagement: Enabling users to explore bloom patterns globally through interactive maps, graphs, and region-specific insights.
+- Scalability and Performance: Processing data client-side to maintain responsiveness and avoid heavy server infrastructure, ensuring smooth performance even with large datasets.
+- Global Coverage and Context: We wanted the system to function globally but also offer local-scale insights. The design supports different vegetation types, from deserts to farmlands.
+- Scientific and Practical Relevance: Ensuring the platform supports research, conservation efforts, and practical applications like agriculture and policy-making.
+- Accuracy: We used validated satellite datasets and NDVI-based algorithms for credible bloom detection and forecasting.
+- Sustainability and Ethics: Anthos-Terra encourages awareness about environmental protection and promotes data use for the public good.
 
 
 ## 🚀 Our Project
