@@ -131,13 +131,13 @@ Anthos-Terra leverages NASA Earth data to transform complex satellite observatio
 - Enables early detection of environmental stress and potential threats to biodiversity.
 
 
-## 💡 How is your project creative?
+## 💡 How is the project creative?
 Creativity in Anthos-Terra lies in turning complex environmental data into an immersive, interactive experience rather than just presenting charts or raw satellite imagery. Each visualization tells a “bloom story,” connecting users to the Earth’s changing vegetation patterns across the globe. Our interactive maps and trend graphs act as living guides, showing how regions everywhere from local parks to vast ecosystems, evolve over time. Hover and click interactions allow users to explore the story behind each bloom, revealing patterns and shifts in vegetation.
 
 We designed the website’s interface to mirror natural growth, subtle animations, color palettes inspired by vegetation cycles, and smooth transitions create a sense of life and movement across the dashboard. Anthos-Terra also introduces interactive ecological storytelling, where each region’s bloom history, current status, and forecast unfold visually and contextually, giving users a global perspective on ecological changes and making the planet’s blooms tangible and engaging.
 
 
-## 🔍 What factors did your team consider?
+## 🔍 What factors did our team consider?
 - Data Accuracy and Reliability: NASA data can be complex, we focused on creating a user-friendly interface that simplifies technical information for general audiences.
 User Accessibility and Experience: Designing an intuitive, responsive interface with clear visuals, smooth transitions, and accessible color palettes for users of varying technical backgrounds.
 - Interactivity and Engagement: Enabling users to explore bloom patterns globally through interactive maps, graphs, and region-specific insights.
