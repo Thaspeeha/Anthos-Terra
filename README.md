@@ -57,9 +57,9 @@ The Plant Blooms VR experience places users inside a **color-coded 3D environmen
 Rather than relying solely on charts or maps, this module transforms environmental data into a **living digital ecosystem**, allowing users to intuitively explore bloom distribution and intensity.
 
 The VR module is currently under development and will be enhanced with:
-- Real satellite-derived bloom predictions  
-- Dynamic environmental overlays  
-- Temporal and spatial bloom simulations  
+- Real satellite-derived bloom predictions.  
+- Dynamic environmental overlays. 
+- Temporal and spatial bloom simulations.
 
 This creative fusion of **data visualization, environmental science, and digital art** enables users to experience ecological change in a more personal, sensory, and intuitive way.
 
@@ -74,11 +74,11 @@ This creative fusion of **data visualization, environmental science, and digital
 
 - 💾 **Integration with MODIS (MOD13A1), Landsat, UAESTATS, and VIIRS datasets**
 - 📈 **Automated NDVI extraction**, regional aggregation, and multi-source fusion.
-- 🗺️ **Interactive region selection** and vegetation filtering,
+- 🗺️ **Interactive region selection** and vegetation filtering.
 - 📊 **Time-series visualization** for bloom cycles/intensity.
 - 🟩 **Geospatial mapping** of bloom activity and phenology.
 - 🔮 **Bloom & pollen production panel** powered by ML prediction.
-- 🌐 **API endpoints** for data, forecast, and map overlays,
+- 🌐 **API endpoints** for data, forecast, and map overlays.
 
 
 ## 🏗️ **Architecture**
@@ -93,8 +93,8 @@ This creative fusion of **data visualization, environmental science, and digital
 ### ⚙️ **Backend / API**
 Next.js API routes (Node.js).
 
-**Data format**: CSV data<br>
-**Build / Package**: Node.js + npm<br>
+**Data format**: CSV data.<br>
+**Build / Package**: Node.js + npm.<br>
 **Dev tooling**: TypeScript, ESLint, PostCSS; Next.js dev tooling / bundler (webpack).
 <br>
 
@@ -105,11 +105,11 @@ Next.js API routes (Node.js).
 - **UAESTATS**, **VIIRS**
 
 ### 🚀 **Hosting & Development**
-- ⚡ **Deployment:** To be hosted
-- 🔗 **Version Control:** GitHub for repo & collaboration
+- ⚡ **Deployment:** To be hosted.
+- 🔗 **Version Control:** GitHub for repo & collaboration.
 
 ### 🗄️ **Storage**
-- ☁️ Cloud storage/local disk for raw and processed data
+- ☁️ Cloud storage/local disk for raw and processed data.
 <br>
 
 
