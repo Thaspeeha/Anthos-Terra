@@ -1,6 +1,5 @@
 # 🏆 2025 NASA Space Apps Global Nominee & Honorable Mention
 
-## 🌱 **Anthos-Terra**: Web-based Plant Bloom Visualization & Prediction Platform
 
 ## 🌍 The Challenge
 
@@ -10,7 +9,7 @@ From season to season and year to year, Earth’s vegetation is constantly chang
 The challenge is to harness the power of **NASA Earth observations** to create a **dynamic visual tool** that can display and/or detect **plant blooming events** across the globe—much like pollinators naturally do.
 <br>
 
-## 📝 **Description**
+## 🌱 **Anthos-Terra**: Web-based Plant Bloom Visualization & Prediction Platform
 Anthos-Terra is a web-based platform for **monitoring, analyzing, and forecasting plant blooming events** using NASA Earth observation data and other open datasets. Focused on sensors such as MODIS (MOD13A1), Landsat, UAESTATS, and VIIRS, the system ingests NDVI and related vegetation indices for interactive mapping and trend analysis of bloom activity.
 <br>
 
